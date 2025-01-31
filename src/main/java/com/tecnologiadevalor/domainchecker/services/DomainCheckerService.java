@@ -18,8 +18,8 @@ import java.util.List;
 
 public class DomainCheckerService {
 
-    private final String apiKey = "3mM44WkB2CBKNF_4TWFBWaCe27umqT2E68isv";
-    private final String apiSecret = "XMMYVxaPD9ALhriBxiYNAm";
+    private final String apiKey = "YOUR_API_KEY_GODADDY";
+    private final String apiSecret = "YOUT_API_SECRET_GODADDY";
 
     Logger log = LogManager.getLogger(DomainCheckerService.class);
 
