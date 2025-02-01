@@ -8,7 +8,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.IOException;
-import java.time.LocalDateTime;
 
 public class WebScraper {
 
@@ -16,13 +15,13 @@ public class WebScraper {
     Logger log = LogManager.getLogger(WebScraper.class);
 
     String currentDirectory  = System.getProperty("user.dir");
-    //String filePathOutput = currentDirectory + "/src/main/resources/output/domains"+ LocalDateTime.now()+".txt";
     String filePathOutputV2 = currentDirectory + "/src/main/resources/output/artists.txt";
 
     Utils util = new Utils();
 
     public void start() {
         try {
+            log.info("[Reading Page Web]\t{}", page);
             Document doc = Jsoup.connect(page).get();
 
             StringBuilder result = new StringBuilder();
@@ -36,6 +35,7 @@ public class WebScraper {
         } catch (IOException e) {
             log.error(e.getMessage());
         }
+
     }
 
 }

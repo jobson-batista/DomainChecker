@@ -17,7 +17,8 @@ public class Utils {
     public String formatString(String text) {
         return Normalizer.normalize(text, Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "")
-                .replaceAll("\\$", "s").toLowerCase();
+                .replaceAll("\\$", "s")
+                .toLowerCase();
     }
 
     public void saveFile(String fileName, String content) {
