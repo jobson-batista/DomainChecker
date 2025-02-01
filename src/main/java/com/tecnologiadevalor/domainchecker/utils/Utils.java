@@ -18,6 +18,7 @@ public class Utils {
         return Normalizer.normalize(text, Normalizer.Form.NFD)
                 .replaceAll("\\p{M}", "")
                 .replaceAll("\\$", "s")
+                .replace(" ", "")
                 .toLowerCase();
     }
 

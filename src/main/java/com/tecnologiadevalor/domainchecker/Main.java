@@ -16,7 +16,7 @@ public class Main {
         DomainCheckerService service = new DomainCheckerService();
         WebScraper scraper = new WebScraper();
 
-        if (args.length < 2 && !"-d".equals(args[0])) {
+        if (args.length < 1) {
             log.info("Usage With File: java -jar domain-checker.jar -f <path/file.txt>");
             log.info("Usage Default Mode: java -jar domain-checker.jar -d");
         } else if ("-f".equals(args[0])) {
