@@ -2,7 +2,7 @@ package com.tecnologiadevalor.domainchecker.enums;
 
 public enum URLS {
 
-    REGISTRO_BR_BASE("https://registro.br/rdap"),
+    REGISTRO_BR_BASE("https://rdap.registro.br"),
     REGISTRO_BR_DOMAIN_URL("/domain"),
     GODADDY_PROD_BASE("https://api.godaddy.com/v1/domains"),
     GODADDY_OTE_BASE("https://api.ote-godaddy.com/v1/domains"),

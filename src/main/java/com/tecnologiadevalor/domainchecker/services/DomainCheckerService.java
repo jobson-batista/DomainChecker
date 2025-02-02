@@ -72,7 +72,6 @@ public class DomainCheckerService {
                     .uri(uri)
                     .timeout(Duration.ofMinutes(2))
                     .header("Accept", "application/json")
-                    .header("Authorization", authHeader)
                     .GET()
                     .build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
