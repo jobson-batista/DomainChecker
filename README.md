@@ -1,6 +1,6 @@
-# [Domain Checker CLI 🇧🇷](#domain-checker-pt)
+# Domain Checker CLI (PT) 🇧🇷
 
-_Leia este README em [English](#domain-checker-en)_
+_Leia este README em [English](#domain-checker-cli-en)_
 
 O **Domain Checker** é uma aplicação Java que verifica a disponibilidade de domínios na internet. Atualmente, a aplicação busca por domínios `.com` e `.com.br` utilizando serviços como **GoDaddy** e **Registro BR**. Além disso, possui um **Web Scraper** que extrai informações de domínios a partir de uma página web e os armazena para consulta.
 
@@ -59,9 +59,9 @@ Para executar os testes automatizados é bem simples, basta rodar a task de test
 
 ---
 
-# [Domain Checker CLI 🇺🇸](#domain-checker-en)
+# Domain Checker CLI (EN) 🇺🇸
 
-_Read this README in [Português](#domain-checker-pt)_
+_Read this README in [Português](#domain-checker-cli-pt)_
 
 ### **Domain Checker** (English Translation)
 
