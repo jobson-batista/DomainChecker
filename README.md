@@ -1,8 +1,8 @@
 # Domain Checker CLI 🌍
 
-_[English Version](#domain-checker-cli-en)_
+_[English Version](#domain-checker-cli-en-)_
 
-_[Versão em Português](#domain-checker-cli-pt)_
+_[Versão em Português](#domain-checker-cli-pt-)_
 
 
 ## Domain Checker CLI (PT) 🇧🇷
