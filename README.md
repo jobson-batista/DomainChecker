@@ -1,8 +1,8 @@
 # Domain Checker CLI 🌍
 
-_[English Version](#domain-checker-cli-en-)_
+_[🇺🇸 English Version](#domain-checker-cli-en-)_
 
-_[Versão em Português](#domain-checker-cli-pt-)_
+_[🇧🇷 Versão em Português](#domain-checker-cli-pt-)_
 
 
 ## Domain Checker CLI (PT) 🇧🇷
@@ -65,8 +65,6 @@ Para executar os testes automatizados é bem simples, basta rodar a task de test
 ---
 
 ## Domain Checker CLI (EN) 🇺🇸
-
-### **Domain Checker**
 
 The **Domain Checker** is a Java application that checks the availability of domains on the internet. Currently, the application searches for `.com` and `.com.br` domains using services like **GoDaddy** and **Registro BR**. Additionally, it includes a **Web Scraper** that extracts domain information from a web page and stores it for reference.
 
