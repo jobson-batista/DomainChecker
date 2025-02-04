@@ -60,6 +60,7 @@ Para executar os testes automatizados é bem simples, basta rodar a task de test
 * [JUnit 5](https://junit.org/junit5/) - Framework de testes automatizados
 * [ShadowJar 9.0.0-beta7](https://github.com/GradleUp/shadow) - Plugin do Gradle que cria um arquivo `.jar` contendo **todas as dependências do projeto**.
 * [JSoup](https://jsoup.org) - Biblioteca para manipular arquivos HTML e XML.
+* [Log4J2](https://logging.apache.org/log4j/2.12.x/) - Biblioteca para logging.
 
 
 ---
@@ -118,3 +119,4 @@ To run the automated tests, simply execute the test task.
 * [JUnit 5](https://junit.org/junit5/) - Automated Testing Framework
 * [ShadowJar 9.0.0-beta7](https://github.com/GradleUp/shadow) - A Gradle plugin that creates a `.jar` file containing **all project dependencies**.
 * [JSoup](https://jsoup.org) - A library for parsing and manipulating HTML and XML files.
+* [Log4J2](https://logging.apache.org/log4j/2.12.x/) - Logging library.
